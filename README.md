@@ -1,20 +1,21 @@
-# Minishell
+# MINISHELL
+![gif](incs/funny.gif)
 
-- [Overview](#overview)
-- [Functionality](#functionality)
-  - [Summary](#summary)
-  - [Tokens, Parsing and Expancion](#tokens-parsing-and-expancion)
-  - [Execution](#execution)
-  - [Pipes & Redirection](#pipes-and-redirections)
-  - [Signals](#signals)
-  - [Memory & Error management](#memory-management--error-handling)
-- [Possible Improvements](#possible-improvements)
-- [Usage](#possible-improvements)
-- [Conclusion](#conclusion)
-- [Contributors](#contributors)
+* [Overview](#overview)
+* [Functionality](#functionality)
+  * [Summary](#summary)
+  * [Tokens, Parsing and Expancion](#tokens-parsing-and-expancion)
+  * [Execution](#execution)
+  * [Pipes & Redirection](#pipes-and-redirections)
+  * [Signals](#signals)
+  * [Memory & Error management](#memory-management--error-handling)
+* [Possible Improvements](#possible-improvements)
+* [Usage](#possible-improvements)
+* [Conclusion](#conclusion)
+* [Contributors](#contributors)
 
 ## OVERVIEW
-Minishell is a command-line interpreter mimicking the basic functionality of Bash. This project was a team effort, done together with eleppala. It deepened our understanding of shell internals, command execution, environment handling, and other core operating system concepts.
+Minishell is a command-line interpreter mimicking the basic functionality of Bash. This project was a team effort, done together with [eleppala](https://github.com/eleppala). It deepened our understanding of shell internals, command execution, environment handling, and other core operating system concepts.
 
 ## FUNCTIONALITY
 ### Summary
@@ -69,15 +70,16 @@ Minishell is a command-line interpreter mimicking the basic functionality of Bas
 * Make (all/clean/fclean/re)
 `./minishell`
 
-## POSSIBLE IMPROVEMENTS
-* Enhanced handling of special characters and escape sequences.
-* Handling for additional signals.
-* Adding function to update shell level env
+## FUTURE IMPROVEMENTS
+* Enhanced handling of special characters and escape sequences
+* More comprehensive signal handling
+* Udating shell level (SHLVL) environment variable
 
 ## CONCLUSION
-This project was our first major team effort and the largest one either of us has done so far, making it an invaluable learning experience. It significantly enhanced our understanding of Unix shell internals, project management, and collaboration.
+This project was the first major team effort and the largest project so far for both of us. Working on our project was an invaluable learning experience, which significantly enhanced our understanding of Unix shell internals, project management, and collaboration.
 
-Despite there still being multiple areas for improvement, the project allowed us to gain a solid foundation in shell functionality and created a reliable command-line interface that mirrors some of Bash's key features.
+Despite the still remaining areas for improvement, the project allowed us to gain a solid foundation in shell functionality and created a reliable command-line interface that mirrors some of Bash's key features.
 
 ## Contributors
-asalo & eleppala
+* [eleppala](https://github.com/eleppala)
+* [asalo](https://github.com/enduserrr)
